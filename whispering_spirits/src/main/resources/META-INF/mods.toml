@@ -1,0 +1,24 @@
+modLoader="javafml"
+loaderVersion="[47,)"
+license="All Rights Reserved"
+
+[[mods]]
+modId="whispering_spirits"
+version="1.0.0"
+displayName="Whispering Spirits"
+displayURL="https://yourlocalgamedev.github.io"
+logoFile="logo.png"
+credits="Whispering audio by George Bullen - https://freesound.org/people/geoneo0/"
+authors="yourlocalgamedev"
+description="An atmospheric horror-themed mod which adds creepy spirits"
+
+[[dependencies.whispering_spirits]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.20.1]"
+    ordering="NONE"
+    side="BOTH"
+
+
+
+

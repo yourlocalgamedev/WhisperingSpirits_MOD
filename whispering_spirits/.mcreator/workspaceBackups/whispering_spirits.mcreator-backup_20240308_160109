@@ -1,0 +1,109 @@
+{
+  "mod_elements": [
+    {
+      "name": "WhisperingSpirit",
+      "type": "livingentity",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "whispering_spirit",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/whispering_spirits/forge/biome_modifier/whispering_spirit_biome_modifier.json",
+          "src/main/resources/assets/whispering_spirits/models/item/whispering_spirit_spawn_egg.json",
+          "src/main/java/net/yourlocalgamedev/whisperingspirits/client/renderer/WhisperingSpiritRenderer.java",
+          "src/main/java/net/yourlocalgamedev/whisperingspirits/entity/WhisperingSpiritEntity.java"
+        ]
+      }
+    },
+    {
+      "name": "PlayerLookAtSpirit",
+      "type": "procedure",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "player_look_at_spirit",
+      "metadata": {
+        "files": [
+          "src/main/java/net/yourlocalgamedev/whisperingspirits/procedures/PlayerLookAtSpiritProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "WhisperingSpiritNaturalEntitySpawningCondition",
+      "type": "procedure",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "whispering_spirit_natural_entity_spawning_condition",
+      "metadata": {
+        "return_type": "logic",
+        "files": [
+          "src/main/java/net/yourlocalgamedev/whisperingspirits/procedures/WhisperingSpiritNaturalEntitySpawningConditionProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [
+    {
+      "name": "sprits_whispering",
+      "files": [
+        "193818__geoneo0__four_voices_whispering_6_wecho",
+        "193817__geoneo0__four_voices_whispering_2_wecho",
+        "193816__geoneo0__four_voices_whispering_3_wecho",
+        "193808__geoneo0__four_voices_whispering_5"
+      ],
+      "category": "hostile",
+      "subtitle": "Whispering Spirits"
+    }
+  ],
+  "language_map": {
+    "en_us": {
+      "item.whispering_spirits.whispering_spirit_spawn_egg": "Whispering Spirit Spawn Egg",
+      "entity.whispering_spirits.whispering_spirit": "Whispering Spirit",
+      "subtitles.sprits_whispering": "Whispering Spirits"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
+  "workspaceSettings": {
+    "modid": "whispering_spirits",
+    "modName": "Whispering Spirits",
+    "version": "1.0.0",
+    "description": "An atmospheric horror-themed mod which adds creepy spirits",
+    "author": "yourlocalgamedev",
+    "websiteURL": "https://yourlocalgamedev.github.io",
+    "license": "All Rights Reserved",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "modPicture": "whisperingspiritslogo",
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.20.1",
+    "credits": "Whispering audio by George Bullen - https://freesound.org/people/geoneo0/",
+    "modElementsPackage": "net.yourlocalgamedev.whisperingspirits",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202300452316
+}
