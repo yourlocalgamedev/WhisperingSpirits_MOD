@@ -4,19 +4,19 @@
     "sounds": [
       {
         "name": "whispering_spirits:193818__geoneo0__four_voices_whispering_6_wecho",
-        "stream": false
+        "stream": true
       },
       {
         "name": "whispering_spirits:193817__geoneo0__four_voices_whispering_2_wecho",
-        "stream": false
+        "stream": true
       },
       {
         "name": "whispering_spirits:193816__geoneo0__four_voices_whispering_3_wecho",
-        "stream": false
+        "stream": true
       },
       {
         "name": "whispering_spirits:193808__geoneo0__four_voices_whispering_5",
-        "stream": false
+        "stream": true
       }
     ]
   }
